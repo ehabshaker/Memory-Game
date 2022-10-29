@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Main Css File -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <title>Memory Game</title>
+</head>
+<body>
+  <div class="control-buttons">
+    <span> Start Game</span>
+  </div>
+
+  <div class="container">
+  <div class="info-container">
+    <div class="name">
+      Hello: <span></span>
+    </div>
+    <div class="tries">
+      Wrong Tries: <span>0</span>
+    </div>
+  </div>
+
+  <div class="memory-game-content">
+    <div class="game-block" data-social="user">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="user">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-user"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="house">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-house"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="house">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-house"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="facebook">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="facebook">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="twitter">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="twitter">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="tiktok">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="tiktok">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-tiktok"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="instagram">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="instagram">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-square-instagram"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="linkedin">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="linkedin">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="heart">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="heart">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-heart"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="envelope">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="envelope">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-solid fa-envelope"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="youtube">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+    <div class="game-block" data-social="youtube">
+      <div class="face front"></div>
+      <div class="face back">
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <audio id="success" src="audio/success-1-6297.mp3" preload="auto"></audio>
+  <audio id="failed" src="audio/negative_beeps-6008.mp3" preload="auto"></audio>
+  <audio id="end-music" src="audio/068232_successwav-82815.mp3" preload="auto"></audio>
+
+  <div class="end-game">
+    <div class="end-game-content">
+      <span> Congratulations </span>
+      <button> Play Again</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
